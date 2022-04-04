@@ -7,23 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		39DCBB97753C8867E0D7119B /* Pods_Snacktacular.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E3F7B5EF4CBF583833273E9 /* Pods_Snacktacular.framework */; };
 		AC5D939027FABCEA00AE26D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5D938F27FABCEA00AE26D8 /* AppDelegate.swift */; };
 		AC5D939227FABCEA00AE26D8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5D939127FABCEA00AE26D8 /* SceneDelegate.swift */; };
-		AC5D939427FABCEA00AE26D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5D939327FABCEA00AE26D8 /* ViewController.swift */; };
+		AC5D939427FABCEA00AE26D8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5D939327FABCEA00AE26D8 /* LoginViewController.swift */; };
 		AC5D939727FABCEA00AE26D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC5D939527FABCEA00AE26D8 /* Main.storyboard */; };
 		AC5D939927FABCED00AE26D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC5D939827FABCED00AE26D8 /* Assets.xcassets */; };
 		AC5D939C27FABCED00AE26D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC5D939A27FABCED00AE26D8 /* LaunchScreen.storyboard */; };
+		AC5D93A427FAC18B00AE26D8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AC5D93A327FAC18B00AE26D8 /* GoogleService-Info.plist */; };
+		AC5D93A627FAC83800AE26D8 /* SpotListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5D93A527FAC83800AE26D8 /* SpotListViewController.swift */; };
+		AC5D93A827FAC98C00AE26D8 /* SpotTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5D93A727FAC98C00AE26D8 /* SpotTableViewCell.swift */; };
+		AC5D93AA27FACD2C00AE26D8 /* SpotDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5D93A927FACD2C00AE26D8 /* SpotDetailViewController.swift */; };
+		AC5D93AC27FB60E600AE26D8 /* Spot.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5D93AB27FB60E600AE26D8 /* Spot.swift */; };
+		AC5D93AE27FB66F600AE26D8 /* UIViewController+alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5D93AD27FB66F600AE26D8 /* UIViewController+alert.swift */; };
+		AC5D93B027FB687500AE26D8 /* Spots.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5D93AF27FB687500AE26D8 /* Spots.swift */; };
+		AC5D93B227FB74BE00AE26D8 /* APIKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5D93B127FB74BE00AE26D8 /* APIKeys.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E3F7B5EF4CBF583833273E9 /* Pods_Snacktacular.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Snacktacular.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BFFAF3ED25876BC34E380EC /* Pods-Snacktacular.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snacktacular.debug.xcconfig"; path = "Target Support Files/Pods-Snacktacular/Pods-Snacktacular.debug.xcconfig"; sourceTree = "<group>"; };
 		AC5D938C27FABCEA00AE26D8 /* Snacktacular.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snacktacular.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC5D938F27FABCEA00AE26D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC5D939127FABCEA00AE26D8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AC5D939327FABCEA00AE26D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC5D939327FABCEA00AE26D8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		AC5D939627FABCEA00AE26D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AC5D939827FABCED00AE26D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC5D939B27FABCED00AE26D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC5D939D27FABCED00AE26D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC5D93A327FAC18B00AE26D8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		AC5D93A527FAC83800AE26D8 /* SpotListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotListViewController.swift; sourceTree = "<group>"; };
+		AC5D93A727FAC98C00AE26D8 /* SpotTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotTableViewCell.swift; sourceTree = "<group>"; };
+		AC5D93A927FACD2C00AE26D8 /* SpotDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotDetailViewController.swift; sourceTree = "<group>"; };
+		AC5D93AB27FB60E600AE26D8 /* Spot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spot.swift; sourceTree = "<group>"; };
+		AC5D93AD27FB66F600AE26D8 /* UIViewController+alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+alert.swift"; sourceTree = "<group>"; };
+		AC5D93AF27FB687500AE26D8 /* Spots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spots.swift; sourceTree = "<group>"; };
+		AC5D93B127FB74BE00AE26D8 /* APIKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKeys.swift; sourceTree = "<group>"; };
+		E146C46824701532ECF9B61D /* Pods-Snacktacular.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snacktacular.release.xcconfig"; path = "Target Support Files/Pods-Snacktacular/Pods-Snacktacular.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +51,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39DCBB97753C8867E0D7119B /* Pods_Snacktacular.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		23228D6FBE50B7E89B0728BE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6BFFAF3ED25876BC34E380EC /* Pods-Snacktacular.debug.xcconfig */,
+				E146C46824701532ECF9B61D /* Pods-Snacktacular.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		AC5D938327FABCEA00AE26D8 = {
 			isa = PBXGroup;
 			children = (
 				AC5D938E27FABCEA00AE26D8 /* Snacktacular */,
 				AC5D938D27FABCEA00AE26D8 /* Products */,
+				23228D6FBE50B7E89B0728BE /* Pods */,
+				E97C15844EA86B42B75F96BA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +90,29 @@
 			children = (
 				AC5D938F27FABCEA00AE26D8 /* AppDelegate.swift */,
 				AC5D939127FABCEA00AE26D8 /* SceneDelegate.swift */,
-				AC5D939327FABCEA00AE26D8 /* ViewController.swift */,
+				AC5D93AB27FB60E600AE26D8 /* Spot.swift */,
+				AC5D93AF27FB687500AE26D8 /* Spots.swift */,
+				AC5D939327FABCEA00AE26D8 /* LoginViewController.swift */,
+				AC5D93A527FAC83800AE26D8 /* SpotListViewController.swift */,
+				AC5D93A727FAC98C00AE26D8 /* SpotTableViewCell.swift */,
+				AC5D93A927FACD2C00AE26D8 /* SpotDetailViewController.swift */,
+				AC5D93AD27FB66F600AE26D8 /* UIViewController+alert.swift */,
+				AC5D93B127FB74BE00AE26D8 /* APIKeys.swift */,
 				AC5D939527FABCEA00AE26D8 /* Main.storyboard */,
 				AC5D939827FABCED00AE26D8 /* Assets.xcassets */,
 				AC5D939A27FABCED00AE26D8 /* LaunchScreen.storyboard */,
 				AC5D939D27FABCED00AE26D8 /* Info.plist */,
+				AC5D93A327FAC18B00AE26D8 /* GoogleService-Info.plist */,
 			);
 			path = Snacktacular;
+			sourceTree = "<group>";
+		};
+		E97C15844EA86B42B75F96BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E3F7B5EF4CBF583833273E9 /* Pods_Snacktacular.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +122,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC5D93A027FABCED00AE26D8 /* Build configuration list for PBXNativeTarget "Snacktacular" */;
 			buildPhases = (
+				945D4A43BFC65ABEDE018605 /* [CP] Check Pods Manifest.lock */,
 				AC5D938827FABCEA00AE26D8 /* Sources */,
 				AC5D938927FABCEA00AE26D8 /* Frameworks */,
 				AC5D938A27FABCEA00AE26D8 /* Resources */,
+				B5E132C727A7048B2A2382E6 /* [CP] Embed Pods Frameworks */,
+				5965C6D556D8B8C405516029 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -126,6 +177,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC5D939C27FABCED00AE26D8 /* LaunchScreen.storyboard in Resources */,
+				AC5D93A427FAC18B00AE26D8 /* GoogleService-Info.plist in Resources */,
 				AC5D939927FABCED00AE26D8 /* Assets.xcassets in Resources */,
 				AC5D939727FABCEA00AE26D8 /* Main.storyboard in Resources */,
 			);
@@ -133,14 +185,80 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5965C6D556D8B8C405516029 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Snacktacular/Pods-Snacktacular-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Snacktacular/Pods-Snacktacular-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Snacktacular/Pods-Snacktacular-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		945D4A43BFC65ABEDE018605 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Snacktacular-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5E132C727A7048B2A2382E6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Snacktacular/Pods-Snacktacular-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Snacktacular/Pods-Snacktacular-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Snacktacular/Pods-Snacktacular-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AC5D938827FABCEA00AE26D8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC5D939427FABCEA00AE26D8 /* ViewController.swift in Sources */,
+				AC5D93A627FAC83800AE26D8 /* SpotListViewController.swift in Sources */,
+				AC5D939427FABCEA00AE26D8 /* LoginViewController.swift in Sources */,
 				AC5D939027FABCEA00AE26D8 /* AppDelegate.swift in Sources */,
+				AC5D93AA27FACD2C00AE26D8 /* SpotDetailViewController.swift in Sources */,
+				AC5D93B027FB687500AE26D8 /* Spots.swift in Sources */,
+				AC5D93A827FAC98C00AE26D8 /* SpotTableViewCell.swift in Sources */,
+				AC5D93B227FB74BE00AE26D8 /* APIKeys.swift in Sources */,
+				AC5D93AC27FB60E600AE26D8 /* Spot.swift in Sources */,
 				AC5D939227FABCEA00AE26D8 /* SceneDelegate.swift in Sources */,
+				AC5D93AE27FB66F600AE26D8 /* UIViewController+alert.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +400,7 @@
 		};
 		AC5D93A127FABCED00AE26D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BFFAF3ED25876BC34E380EC /* Pods-Snacktacular.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +429,7 @@
 		};
 		AC5D93A227FABCED00AE26D8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E146C46824701532ECF9B61D /* Pods-Snacktacular.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

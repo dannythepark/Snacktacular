@@ -6,6 +6,8 @@
 //
 
 import UIKit
+import Firebase
+import GooglePlaces
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -13,7 +15,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        FirebaseApp.configure()
+        GMSPlacesClient.provideAPIKey(APIKeys.googlePlacesKey)
+        
+        let coloredAppearance = UINavigationBarAppearance()
+             coloredAppearance.configureWithOpaqueBackground()
+             coloredAppearance.backgroundColor = UIColor(named: "PrimaryColor")
+             coloredAppearance.titleTextAttributes = [.foregroundColor: UIColor.white]
+             coloredAppearance.largeTitleTextAttributes = [.foregroundColor: UIColor.white]
+             UINavigationBar.appearance().standardAppearance = coloredAppearance
+             UINavigationBar.appearance().scrollEdgeAppearance = coloredAppearance
+             let coloredAppearanceToolbar = UIToolbarAppearance()
+             coloredAppearanceToolbar.configureWithOpaqueBackground()
+             coloredAppearanceToolbar.backgroundColor = UIColor(named: "PrimaryColor")
+             UIToolbar.appearance().standardAppearance = coloredAppearanceToolbar
+             UIToolbar.appearance().scrollEdgeAppearance = coloredAppearanceToolbar
         return true
     }
 
