@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		39DCBB97753C8867E0D7119B /* Pods_Snacktacular.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E3F7B5EF4CBF583833273E9 /* Pods_Snacktacular.framework */; };
+		AC3A5A922803FE7C00642E07 /* ReviewTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3A5A912803FE7C00642E07 /* ReviewTableViewController.swift */; };
+		AC3A5A94280491B500642E07 /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3A5A93280491B500642E07 /* Review.swift */; };
+		AC3A5A962804920E00642E07 /* Reviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3A5A952804920E00642E07 /* Reviews.swift */; };
+		AC3A5A982804954300642E07 /* SpotReviewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3A5A972804954300642E07 /* SpotReviewTableViewCell.swift */; };
 		AC5D939027FABCEA00AE26D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5D938F27FABCEA00AE26D8 /* AppDelegate.swift */; };
 		AC5D939227FABCEA00AE26D8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5D939127FABCEA00AE26D8 /* SceneDelegate.swift */; };
 		AC5D939427FABCEA00AE26D8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5D939327FABCEA00AE26D8 /* LoginViewController.swift */; };
@@ -27,6 +31,10 @@
 /* Begin PBXFileReference section */
 		0E3F7B5EF4CBF583833273E9 /* Pods_Snacktacular.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Snacktacular.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BFFAF3ED25876BC34E380EC /* Pods-Snacktacular.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snacktacular.debug.xcconfig"; path = "Target Support Files/Pods-Snacktacular/Pods-Snacktacular.debug.xcconfig"; sourceTree = "<group>"; };
+		AC3A5A912803FE7C00642E07 /* ReviewTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewTableViewController.swift; sourceTree = "<group>"; };
+		AC3A5A93280491B500642E07 /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
+		AC3A5A952804920E00642E07 /* Reviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reviews.swift; sourceTree = "<group>"; };
+		AC3A5A972804954300642E07 /* SpotReviewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotReviewTableViewCell.swift; sourceTree = "<group>"; };
 		AC5D938C27FABCEA00AE26D8 /* Snacktacular.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snacktacular.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC5D938F27FABCEA00AE26D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC5D939127FABCEA00AE26D8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -92,10 +100,14 @@
 				AC5D939127FABCEA00AE26D8 /* SceneDelegate.swift */,
 				AC5D93AB27FB60E600AE26D8 /* Spot.swift */,
 				AC5D93AF27FB687500AE26D8 /* Spots.swift */,
+				AC3A5A93280491B500642E07 /* Review.swift */,
+				AC3A5A952804920E00642E07 /* Reviews.swift */,
 				AC5D939327FABCEA00AE26D8 /* LoginViewController.swift */,
 				AC5D93A527FAC83800AE26D8 /* SpotListViewController.swift */,
 				AC5D93A727FAC98C00AE26D8 /* SpotTableViewCell.swift */,
 				AC5D93A927FACD2C00AE26D8 /* SpotDetailViewController.swift */,
+				AC3A5A972804954300642E07 /* SpotReviewTableViewCell.swift */,
+				AC3A5A912803FE7C00642E07 /* ReviewTableViewController.swift */,
 				AC5D93AD27FB66F600AE26D8 /* UIViewController+alert.swift */,
 				AC5D93B127FB74BE00AE26D8 /* APIKeys.swift */,
 				AC5D939527FABCEA00AE26D8 /* Main.storyboard */,
@@ -249,12 +261,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC3A5A962804920E00642E07 /* Reviews.swift in Sources */,
 				AC5D93A627FAC83800AE26D8 /* SpotListViewController.swift in Sources */,
 				AC5D939427FABCEA00AE26D8 /* LoginViewController.swift in Sources */,
 				AC5D939027FABCEA00AE26D8 /* AppDelegate.swift in Sources */,
 				AC5D93AA27FACD2C00AE26D8 /* SpotDetailViewController.swift in Sources */,
+				AC3A5A922803FE7C00642E07 /* ReviewTableViewController.swift in Sources */,
+				AC3A5A94280491B500642E07 /* Review.swift in Sources */,
 				AC5D93B027FB687500AE26D8 /* Spots.swift in Sources */,
 				AC5D93A827FAC98C00AE26D8 /* SpotTableViewCell.swift in Sources */,
+				AC3A5A982804954300642E07 /* SpotReviewTableViewCell.swift in Sources */,
 				AC5D93B227FB74BE00AE26D8 /* APIKeys.swift in Sources */,
 				AC5D93AC27FB60E600AE26D8 /* Spot.swift in Sources */,
 				AC5D939227FABCEA00AE26D8 /* SceneDelegate.swift in Sources */,
