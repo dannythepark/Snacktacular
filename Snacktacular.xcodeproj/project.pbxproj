@@ -26,6 +26,12 @@
 		AC5D93AE27FB66F600AE26D8 /* UIViewController+alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5D93AD27FB66F600AE26D8 /* UIViewController+alert.swift */; };
 		AC5D93B027FB687500AE26D8 /* Spots.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5D93AF27FB687500AE26D8 /* Spots.swift */; };
 		AC5D93B227FB74BE00AE26D8 /* APIKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5D93B127FB74BE00AE26D8 /* APIKeys.swift */; };
+		ACC14E742816407E0032AA30 /* UIView+addBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC14E732816407E0032AA30 /* UIView+addBorder.swift */; };
+		ACC14E76281640E30032AA30 /* UIBarButtonItem+hide.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC14E75281640E30032AA30 /* UIBarButtonItem+hide.swift */; };
+		ACC14E782816595E0032AA30 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC14E772816595E0032AA30 /* PhotoViewController.swift */; };
+		ACC14E7A28165DB60032AA30 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC14E7928165DB60032AA30 /* Photo.swift */; };
+		ACC14E7C2817131B0032AA30 /* Photos.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC14E7B2817131B0032AA30 /* Photos.swift */; };
+		ACC14E80281715840032AA30 /* SpotPhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC14E7F281715840032AA30 /* SpotPhotoCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +57,12 @@
 		AC5D93AD27FB66F600AE26D8 /* UIViewController+alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+alert.swift"; sourceTree = "<group>"; };
 		AC5D93AF27FB687500AE26D8 /* Spots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spots.swift; sourceTree = "<group>"; };
 		AC5D93B127FB74BE00AE26D8 /* APIKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKeys.swift; sourceTree = "<group>"; };
+		ACC14E732816407E0032AA30 /* UIView+addBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+addBorder.swift"; sourceTree = "<group>"; };
+		ACC14E75281640E30032AA30 /* UIBarButtonItem+hide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+hide.swift"; sourceTree = "<group>"; };
+		ACC14E772816595E0032AA30 /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		ACC14E7928165DB60032AA30 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Photo.swift; path = ../../../../Documents/SONGS/Photo.swift; sourceTree = "<group>"; };
+		ACC14E7B2817131B0032AA30 /* Photos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photos.swift; sourceTree = "<group>"; };
+		ACC14E7F281715840032AA30 /* SpotPhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotPhotoCollectionViewCell.swift; sourceTree = "<group>"; };
 		E146C46824701532ECF9B61D /* Pods-Snacktacular.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snacktacular.release.xcconfig"; path = "Target Support Files/Pods-Snacktacular/Pods-Snacktacular.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -102,13 +114,19 @@
 				AC5D93AF27FB687500AE26D8 /* Spots.swift */,
 				AC3A5A93280491B500642E07 /* Review.swift */,
 				AC3A5A952804920E00642E07 /* Reviews.swift */,
+				ACC14E7928165DB60032AA30 /* Photo.swift */,
+				ACC14E7B2817131B0032AA30 /* Photos.swift */,
 				AC5D939327FABCEA00AE26D8 /* LoginViewController.swift */,
 				AC5D93A527FAC83800AE26D8 /* SpotListViewController.swift */,
 				AC5D93A727FAC98C00AE26D8 /* SpotTableViewCell.swift */,
 				AC5D93A927FACD2C00AE26D8 /* SpotDetailViewController.swift */,
 				AC3A5A972804954300642E07 /* SpotReviewTableViewCell.swift */,
+				ACC14E7F281715840032AA30 /* SpotPhotoCollectionViewCell.swift */,
 				AC3A5A912803FE7C00642E07 /* ReviewTableViewController.swift */,
+				ACC14E772816595E0032AA30 /* PhotoViewController.swift */,
 				AC5D93AD27FB66F600AE26D8 /* UIViewController+alert.swift */,
+				ACC14E732816407E0032AA30 /* UIView+addBorder.swift */,
+				ACC14E75281640E30032AA30 /* UIBarButtonItem+hide.swift */,
 				AC5D93B127FB74BE00AE26D8 /* APIKeys.swift */,
 				AC5D939527FABCEA00AE26D8 /* Main.storyboard */,
 				AC5D939827FABCED00AE26D8 /* Assets.xcassets */,
@@ -266,15 +284,21 @@
 				AC5D939427FABCEA00AE26D8 /* LoginViewController.swift in Sources */,
 				AC5D939027FABCEA00AE26D8 /* AppDelegate.swift in Sources */,
 				AC5D93AA27FACD2C00AE26D8 /* SpotDetailViewController.swift in Sources */,
+				ACC14E7C2817131B0032AA30 /* Photos.swift in Sources */,
 				AC3A5A922803FE7C00642E07 /* ReviewTableViewController.swift in Sources */,
 				AC3A5A94280491B500642E07 /* Review.swift in Sources */,
 				AC5D93B027FB687500AE26D8 /* Spots.swift in Sources */,
+				ACC14E76281640E30032AA30 /* UIBarButtonItem+hide.swift in Sources */,
 				AC5D93A827FAC98C00AE26D8 /* SpotTableViewCell.swift in Sources */,
+				ACC14E782816595E0032AA30 /* PhotoViewController.swift in Sources */,
 				AC3A5A982804954300642E07 /* SpotReviewTableViewCell.swift in Sources */,
+				ACC14E7A28165DB60032AA30 /* Photo.swift in Sources */,
 				AC5D93B227FB74BE00AE26D8 /* APIKeys.swift in Sources */,
 				AC5D93AC27FB60E600AE26D8 /* Spot.swift in Sources */,
 				AC5D939227FABCEA00AE26D8 /* SceneDelegate.swift in Sources */,
+				ACC14E80281715840032AA30 /* SpotPhotoCollectionViewCell.swift in Sources */,
 				AC5D93AE27FB66F600AE26D8 /* UIViewController+alert.swift in Sources */,
+				ACC14E742816407E0032AA30 /* UIView+addBorder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

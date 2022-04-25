@@ -42,5 +42,9 @@
 	<string>This app will need the device location in order to determine the distance from a spot to the device.</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>This app will need the device location in order to determine the distance from a spot to the device.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>This app will need the photo access.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>This app will need the photo library access.</string>
 </dict>
 </plist>
